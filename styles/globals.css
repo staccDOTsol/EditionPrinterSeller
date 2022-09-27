@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wallet-adapter-button-trigger {
+  background-color: rgb(229, 229, 229) !important;
+  color:black !important;
+}
+
+.wallet-adapter-button-trigger:focus {
+outline: none !important;
+}
