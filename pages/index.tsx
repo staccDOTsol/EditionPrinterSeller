@@ -19,6 +19,7 @@ import { useMemo } from 'react'
 import { toast } from 'react-toastify'
 import { LAMPORTS_PER_SOL } from '@solana/web3.js'
 import Link from 'next/link'
+
 const CUSTOM_TOKEN: PublicKey = new PublicKey(
   process.env.NEXT_PUBLIC_SPLTOKEN!
 )
@@ -142,20 +143,7 @@ const Home: NextPage = () => {
         </h1>
         <div className='relative flex flex-col items-center justify-center w-full py-8 overflow-hidden sm:py-12 lg:pb-8'>
           <div className='flex flex-col items-center pb-5'>
-            <h2 className='text-lg font-extrabold tracking-wider text-center uppercase sm:text-2xl font-plex'>
-              <span className='pb-1 sm:pb-2 whitespace-nowrap'>
-              tl;dr these nfts pay into jaregm.sol, 
-              
-              <br />using leveraged pools that then are used to arbitrage.
-              
-              
-              <br /> in this POC we are arbitraging among 6 stablecoins. 
-              
-              <br />Half any gains (including sales of this token) 
-              
-              <br />is paid to the quote of the strata pool, increasing token value.
-              </span>
-            </h2><button                       className='w-24 px-3 py-3 mt-4 border border-black rounded-lg hover:bg-black hover:text-white'
+            <button                       className='w-24 px-3 py-3 mt-4 border border-black rounded-lg hover:bg-black hover:text-white'
 >
               <Link href="https://app.strataprotocol.com/swap/DwnrpuRQQ7GwLSXvQRFP6LQw5MWodEBWqN1f2LkeXE6Y">Strata SSY1</Link></button>
           </div>
@@ -199,13 +187,26 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-
+      <h2 className='text-lg font-extrabold tracking-wider text-center uppercase sm:text-2xl font-plex'>
+              <span className='pb-1 sm:pb-2 whitespace-nowrap'>
+              tl;dr these nfts  <br />pay into jaregm.sol, 
+              
+              <br />using leveraged pools <br />  then are used to arbitrage.
+              
+              
+              <br /> in this POC we  <br />arbitraging among 6 stables. 
+              
+              <br />Half any gains  <br />(including sales of this nft) 
+              
+              <br />is paid to the quote  <br />of pool, increasing token value.
+              </span>
+            </h2>
       <footer>
         <div
           className='p-4 text-center'
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}
         >
-          Made with ❤️
+          Made with ❤️ by @0xbanana and @staccoverflow
         </div>
       </footer>
     </div>
