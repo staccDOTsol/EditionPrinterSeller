@@ -124,7 +124,7 @@ const Home: NextPage = () => {
     console.log("cost: ", COST);
     
     
-    (tokenBalance * LAMPORTS_PER_SOL > COST) ? setCanMint(true) : setCanMint(false)
+    (tokenBalance * 10 ** 6 > COST) ? setCanMint(true) : setCanMint(false)
 
   }, [publicKey])
 
