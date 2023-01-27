@@ -3,258 +3,48 @@ import { NATIVE_MINT } from '@solana/spl-token'
 // const mintsOnSale = []
 const mintsOnSale = [
   {
-    creator: "0xBanana",
+    creator: "stacc",
     open: true,
-    mint: 'CVEUC9FPMpWCxDJpUg1QAKdBn8ijsGUC4DVM91fhCxXu',
+    mint: '9g6RL4xmXygegijBmh5SMekvrRKdajDQxtGNoini64Z3',
     priceTags: [
       [
         {
-          splToken: "6a6bpRFhujDp772G6EchpiDBBYbivNygwJLttDSiqpce",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '437mKN7wtYVkH8cUgDR4Lyi4bfUyWnChvh62Nk6y8yix',
-          price: 50,
-          symbol: '$BNON'
+          splToken: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          bank: 'Gf3sbc5Jb62jH7WcTr3WSNGDQLk1w6wcKMZXKK1SC1E6',
+          bankAta: '3a6vmVLpwXueJn68LWxtjbwhGaEWGJm4h34KgzXUmyyR',
+          price: 50000,
+          symbol: '$BONK'
         },
         {
           splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
+          bank: 'Gf3sbc5Jb62jH7WcTr3WSNGDQLk1w6wcKMZXKK1SC1E6',
+          bankAta: '',
+          price: 0.69,
+          symbol: 'SOL'
+        }
+    ],
+      [
+        {
+          splToken: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          bank: 'Gf3sbc5Jb62jH7WcTr3WSNGDQLk1w6wcKMZXKK1SC1E6',
+          bankAta: '3a6vmVLpwXueJn68LWxtjbwhGaEWGJm4h34KgzXUmyyR',
+          price: 150000,
+          symbol: '$BONK'
+        },
+        {
+          splToken: NATIVE_MINT.toBase58(),
+          bank: 'Gf3sbc5Jb62jH7WcTr3WSNGDQLk1w6wcKMZXKK1SC1E6',
           bankAta: '',
           price: 0.33,
           symbol: 'SOL'
         }
-      ],
-      [
-        {
-          splToken: "BDNRJZ6MA3YRhHcewYMjRDEc7oWQCxHknXU98wwTsSxu",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '7eCk9QGWqe1aPaeh3czADgKoce9ww8mEo32D3DBCqpos',
-          price: 50,
-          symbol: '$OOO'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        {
-          splToken: "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: 'FjtvJt7vGjSfpVhx8SfFgfqJjK89MJAB1sQg5XfBGTpi',
-          price: 50,
-          symbol: '$DUST'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
+    
       ],
       [
         
         {
           splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 1.69,
-          symbol: 'SOL'
-        },
-      ]
-    ]
-  },
-  {
-    creator: "0xBanana",
-    open: true,
-    mint: 'BQJyr6p2Vwv3RJpN8ggGJQPvAoGfTBA2en9fhZiqMsux',
-    priceTags: [
-      [
-        {
-          splToken: "6a6bpRFhujDp772G6EchpiDBBYbivNygwJLttDSiqpce",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '437mKN7wtYVkH8cUgDR4Lyi4bfUyWnChvh62Nk6y8yix',
-          price: 50,
-          symbol: '$BNON'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.33,
-          symbol: 'SOL'
-        }
-      ],
-      [
-        {
-          splToken: "BDNRJZ6MA3YRhHcewYMjRDEc7oWQCxHknXU98wwTsSxu",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '7eCk9QGWqe1aPaeh3czADgKoce9ww8mEo32D3DBCqpos',
-          price: 50,
-          symbol: '$OOO'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        {
-          splToken: "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: 'FjtvJt7vGjSfpVhx8SfFgfqJjK89MJAB1sQg5XfBGTpi',
-          price: 50,
-          symbol: '$DUST'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 1.69,
-          symbol: 'SOL'
-        },
-      ]
-    ]
-  },
-  {
-    creator: "0xBanana",
-    open: true,
-    mint: 'FGd4hdVYSszKuAx4KVnqLpv4JdLwxSdW8gXQnmd8PxMZ',
-    priceTags: [
-      [
-        {
-          splToken: "6a6bpRFhujDp772G6EchpiDBBYbivNygwJLttDSiqpce",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '437mKN7wtYVkH8cUgDR4Lyi4bfUyWnChvh62Nk6y8yix',
-          price: 50,
-          symbol: '$BNON'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.33,
-          symbol: 'SOL'
-        }
-      ],
-      [
-        {
-          splToken: "BDNRJZ6MA3YRhHcewYMjRDEc7oWQCxHknXU98wwTsSxu",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '7eCk9QGWqe1aPaeh3czADgKoce9ww8mEo32D3DBCqpos',
-          price: 50,
-          symbol: '$OOO'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        {
-          splToken: "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: 'FjtvJt7vGjSfpVhx8SfFgfqJjK89MJAB1sQg5XfBGTpi',
-          price: 50,
-          symbol: '$DUST'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 1.69,
-          symbol: 'SOL'
-        },
-      ]
-    ]
-  },
-  {
-    creator: "0xBanana",
-    open: true,
-    mint: 'GTWomHGNkNEdDio2STL2Qdq9paFMGME5Lhq6m9E4hwHB',
-    priceTags: [
-      [
-        {
-          splToken: "6a6bpRFhujDp772G6EchpiDBBYbivNygwJLttDSiqpce",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '437mKN7wtYVkH8cUgDR4Lyi4bfUyWnChvh62Nk6y8yix',
-          price: 50,
-          symbol: '$BNON'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.33,
-          symbol: 'SOL'
-        }
-      ],
-      [
-        {
-          splToken: "BDNRJZ6MA3YRhHcewYMjRDEc7oWQCxHknXU98wwTsSxu",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '7eCk9QGWqe1aPaeh3czADgKoce9ww8mEo32D3DBCqpos',
-          price: 50,
-          symbol: '$OOO'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        {
-          splToken: "DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ",
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: 'FjtvJt7vGjSfpVhx8SfFgfqJjK89MJAB1sQg5XfBGTpi',
-          price: 50,
-          symbol: '$DUST'
-        },
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
-          bankAta: '',
-          price: 0.69,
-          symbol: 'SOL'
-        },
-      ],
-      [
-        
-        {
-          splToken: NATIVE_MINT.toBase58(),
-          bank: '232PpcrPc6Kz7geafvbRzt5HnHP4kX88yvzUCN69WXQC',
+          bank: 'Gf3sbc5Jb62jH7WcTr3WSNGDQLk1w6wcKMZXKK1SC1E6',
           bankAta: '',
           price: 1.69,
           symbol: 'SOL'

@@ -47,7 +47,6 @@ export const Edition = (props: EditionProps) => {
     const nft = await metaplex
       .nfts()
       .findByMint({ mintAddress: new PublicKey(mint) })
-      .run()
     if (nft.model != 'nft') return
     if (!nft.edition.isOriginal) return
     setNft(nft)
